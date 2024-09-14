@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "dz-24"
+version = "0.1.0"
+description = ""
+authors = ["Maxim Poverenov <poverenov.92@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.1.1"
+djangorestframework = "^3.15.2"
+python-dotenv = "^1.0.1"
+psycopg2-binary = "^2.9.9"
+pillow = "^10.4.0"
+black = "^24.8.0"
+phonenumbers = "^8.13.45"
+django-countries = "^7.6.1"
+django-phonenumber-field = "^8.0.0"
+learning = "^0.0.dev0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
