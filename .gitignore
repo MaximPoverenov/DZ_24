@@ -185,5 +185,6 @@ fabric.properties
 .idea
 
 db.sqlite3
-.env
+
 .idea/
+.env
